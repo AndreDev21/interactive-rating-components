@@ -1,0 +1,34 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-image: linear-gradient(hsl(221deg 20% 16%), hsl(214deg 23% 12%));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+
+}
+
+.main .favorite{
+    background-color: hsl(213, 19%, 18%);
+    border-width: 0;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.main .question{
+    color: white;
+}
