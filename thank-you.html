@@ -29,6 +29,13 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="link">Frontend Mentor</a>. 
     Coded by <a href="www.linkedin.com/in/andré-mattedi-martins-a376aa213" class="link">Andre Mattedi Martins</a>.
   </div>
-  <script>document.getElementById('selectedGrade').innerHTML = "You selected  " + localStorage.getItem('btn') + " out of 5";</script>
+  <script>
+  if(sessionStorage.getItem('btn') == null){
+    document.getElementById('selectedGrade').innerHTML = "You haven't selected any!";
+  }
+  else{
+    document.getElementById('selectedGrade').innerHTML = "You selected  " + sessionStorage.getItem('btn') + " out of 5";
+  };
+  </script>
 </body>
 </html>
