@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Soluction Repository](https://github.com/AndreDev21/interactive-rating-components)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Repository](https://github.com/AndreDev21/interactive-rating-components)
+- Live Site URL: [live site URL here](https://andredev21.github.io/interactive-rating-components/)
 
 ## My process
 
